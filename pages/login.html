@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>RestoApp - Acceso</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="contenedor-principal">
+    <h2>Acceso al sistema</h2>
+
+    <div class="auth-box">
+      Usuario: <input type="text" id="user">
+      Contraseña: <input type="password" id="pass">
+      <button id="loginBtn" class="btn">Ingresar</button>
+      <button id="logoutBtn" class="btn" style="display:none">Cerrar sesión</button>
+      <div id="authMsg" class="auth-msg"></div>
+    </div>
+
+    <div class="aviso">
+      Nota: esta autenticación es solo para fines didácticos del taller.
+      No usar credenciales reales ni este esquema en producción.
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="../index.html">Inicio</a>
+    <a href="admin.html">Ir a administración</a>
+  </nav>
+
+  <script type="module" src="../js/login-view.js"></script>
+</body>
+</html>

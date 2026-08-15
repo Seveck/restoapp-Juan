@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>RestoApp - Tomar pedido</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="contenedor-principal">
+    <h2>Tomar pedido</h2>
+
+    <div id="form">
+      <div class="item">
+        Plato:
+        <select id="plato">
+          <option value="">--Cargando menú--</option>
+        </select>
+      </div>
+      <div class="item">
+        Cantidad: <input type="number" id="cantidad">
+      </div>
+      <div class="item">
+        Precio Unitario ($): <input type="number" id="precio">
+      </div>
+      <button id="btn" class="btn">PROCESAR PEDIDO</button>
+    </div>
+
+    <div id="res"></div>
+  </div>
+
+  <nav class="nav">
+    <a href="../index.html">Inicio</a>
+  </nav>
+
+  <script type="module" src="../js/pedido-view.js"></script>
+</body>
+</html>

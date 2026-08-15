@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>RestoApp - Administración</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="contenedor-principal">
+    <h2>Crear producto</h2>
+
+    <div id="noAuth" style="display:none">
+      <p>Necesitas iniciar sesión para usar esta sección.</p>
+      <a href="login.html">Ir a login</a>
+    </div>
+
+    <div id="productForm" class="product-form" style="display:none">
+      Nombre: <input type="text" id="newName">
+      Precio: <input type="number" id="newPrice">
+      <button id="crearBtn" class="btn">Crear</button>
+      <div id="prodMsg" class="prod-msg"></div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="../index.html">Inicio</a>
+  </nav>
+
+  <script type="module" src="../js/admin-view.js"></script>
+</body>
+</html>
