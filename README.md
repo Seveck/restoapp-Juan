@@ -58,3 +58,5 @@ Si quieres, puedo:
 - Generar una estructura de archivos inicial (carpetas `css/`, `js/`, `pages/`) y mover/crear archivos básicos.
 
 Autor: Instructor (plantilla para taller)
+
+¡¡REVISAR CHANGELOG.md!!
