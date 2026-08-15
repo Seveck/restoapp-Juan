@@ -79,8 +79,8 @@ los ejercicios del taller.
   llamadas a `fetch`, con mensajes de feedback visibles al usuario.
 
 ## Credenciales de acceso (para revisión del profesor)
-- Usuario (email): juanmgouveia08@gmail.com
-- Contraseña: 7777777crac
+- Usuario (email): admin@gmail.com
+- Contraseña: admin1
 - Esta cuenta se creó manualmente en Firebase Console → Authentication
   y es la única habilitada para acceder a la sección de administración
   (`pages/admin.html`).
