@@ -1,3 +1,5 @@
+¡¡REVISAR CHANGELOG.md!!
+
 RestoApp - Taller de Refactorización y Uso de IA
 
 Resumen
